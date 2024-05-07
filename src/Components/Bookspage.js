@@ -21,7 +21,7 @@ function Bookspage() {
 
   return (
     <div className="container">
-      <h1>Books Page</h1>
+      <h1>List of Books</h1>
       <ul className="books-container">
         {books.map(book => (
           <li className="book-item" key={book.id}>
